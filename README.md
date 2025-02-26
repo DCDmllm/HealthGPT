@@ -24,7 +24,7 @@ Mengze Li<sup>4</sup>, Xiaohui Song<sup>1</sup>, Siliang Tang<sup>1</sup>, Jun X
 
 ## 🌟 Overview
 Welcome to **HealthGPT!** 🚀
-**HealthGPT** is an advanced medical Large Vision-Language Model with a unified framework that integrates both medical visual comprehension and generation capabilities. In this project, a **heterogeneous low rank adaptation (H-LoRA)** and a **three-stage learning strategy** are proposed, enabling the pre-trained large language model to efficiently follow both visual comprehension and generation instructions.
+**HealthGPT** is an advanced medical Large Vision-Language Model with a unified framework that integrates both medical visual comprehension and generation capabilities. In this project, a **heterogeneous low rank adaptation (H-LoRA)** and a **three-stage learning strategy** are proposed, enabling the pre-trained large language model to efficiently follow both visual comprehension and generation instructions
 
 # 🔥 News
 - **[2025.02.17]** We have released the pre-trained weight on HuggingFace and inference script. 
