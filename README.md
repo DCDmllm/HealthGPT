@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>🩺 HealthGPT Series – HealthGPT & HealthGPT Pro</h1>
+<h1>🩺 HealthGPT Series – HealthGPT & HealthGPT-Pro</h1>
 
 <p>
   <a href="./HealthGPT-Pro/README.md"><img src="https://img.shields.io/badge/HealthGPT--Pro-Repo-pink" alt="HealthGPT-Pro"></a>
