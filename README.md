@@ -56,6 +56,7 @@ This makes **HealthGPT-Pro** a significant upgrade for medical understanding tas
   <a href="https://lin-tianwei.github.io/healthgpt-pro.github.io/"><img src="https://img.shields.io/badge/🚀-Project_Page-blue" alt="Project Page"></a>
   <a href="https://huggingface.co/lintw/HealthGPT-Pro-4B"><img src="https://img.shields.io/badge/🤗-HealthGPT--Pro--4B-yellow" alt="HF 4B"></a>
   <a href="https://huggingface.co/lintw/HealthGPT-Pro-8B"><img src="https://img.shields.io/badge/🤗-HealthGPT--Pro--8B-yellow" alt="HF 8B"></a>
+  <a href="https://huggingface.co/lintw/HealthGPT-Pro-27B"><img src="https://img.shields.io/badge/🤗-HealthGPT--Pro--27B-yellow" alt="HF 27B"></a>
   <a href="https://modelscope.cn/models/TianweiLin/HealthGPT-Pro-4B"><img src="https://img.shields.io/badge/🧠-ModelScope--4B-purple" alt="ModelScope 4B"></a>
   <a href="https://modelscope.cn/models/TianweiLin/HealthGPT-Pro-8B"><img src="https://img.shields.io/badge/🧠-ModelScope--8B-purple" alt="ModelScope 8B"></a>
 </p>
@@ -92,12 +93,15 @@ This makes **HealthGPT-Pro** a significant upgrade for medical understanding tas
 | Qwen3-VL-4B | 74.3 | 50.7 | 60.5 | 46.4 | 56.0 | 60.5 | 12.6 | 75.6 | 29.6 | 51.8 |
 | Qwen3-VL-8B | 79.8 | 57.4 | 65.9 | 51.3 | 61.1 | 65.9 | 12.8 | 76.2 | 30.2 | 55.6 |
 | Lingshu-7B | 75.8 | 53.5 | 64.5 | 57.8 | 56.6 | 64.4 | 16.9 | 76.8 | 29.9 | 55.1 |
-| HealthGPT-14B | 80.2 | <ins>63.4</ins> | 63.2 | 39.8 | 63.4 | 66.2 | 11.3 | 68.0 | 25.7 | 53.5 |
+| HealthGPT-14B | 80.2 | 63.4 | 63.2 | 39.8 | 63.4 | 66.2 | 11.3 | 68.0 | 25.7 | 53.5 |
 | HuatuoGPT-V-34B | 74.7 | 51.8 | 60.7 | 42.7 | 54.7 | 58.8 | 11.4 | 54.7 | 26.5 | 48.4 |
-| Hulu-Med-4B | 78.6 | 58.6 | 66.7 | 59.4 | 64.8 | <ins>71.9</ins> | 16.8 | 77.6 | 29.5 | 58.2 |
-| Hulu-Med-7B | 79.5 | 60.6 | **72.8** | **61.5** | <ins>67.6</ins> | **73.5** | **19.6** | 77.4 | 31.1 | <ins>60.4</ins> |
-| **HealthGPT-Pro-4B** | <ins>80.4</ins> | 58.4 | <ins>71.6</ins> | 58.0 | 64.4 | 71.5 | 16.2 | <ins>78.4</ins> | <ins>31.4</ins> | 58.9 |
-| **HealthGPT-Pro-8B** | **83.1** | **64.1** | 71.4 | <ins>60.6</ins> | **68.5** | 71.3 | <ins>18.3</ins> | **79.2** | **35.4** | **61.3** |
+| Hulu-Med-4B | 78.6 | 58.6 | 66.7 | 59.4 | 64.8 | 71.9 | 16.8 | 77.6 | 29.5 | 58.2 |
+| Hulu-Med-7B | 79.5 | 60.6 | 72.8 | 61.5 | 67.6 | 73.5 | 19.6 | 77.4 | 31.1 | 60.4 |
+| **HealthGPT-Pro-4B** | 80.4 | 58.4 | 71.6 | 58.0 | 64.4 | 71.5 | 16.2 | 78.4 | 31.4 | 58.9 |
+| **HealthGPT-Pro-8B** | 83.1 | 64.1 | 71.4 | 60.6 | 68.5 | 71.3 | 18.3 | 79.2 | 35.4 | 61.3 |
+| Lingshu-32B | 85.5 | 70.4 | 80.8 | 70.2 | 65.6 | 74.3 | 22.6 | 79.2 | 43.8 | 65.8 |
+| Hulu-Med-32B | <ins>88.1</ins> | <ins>73.0</ins> | <ins>83.6</ins> | <ins>71.0</ins> | <ins>72.3</ins> | <ins>80.4</ins> | <ins>25.0</ins> | <ins>80.6</ins> | <ins>45.4</ins> | <ins>68.8</ins> |
+| **HealthGPT-Pro-27B** | **93.2** | **73.7** | **85.0** | **80.7** | **74.9** | **84.8** | **35.0** | **80.9** | **47.2** | **72.8** |
 
 ### 🖼️ Medical Multimodal Benchmarks
 
@@ -105,13 +109,16 @@ This makes **HealthGPT-Pro** a significant upgrade for medical understanding tas
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Qwen3-VL-4B | 44.3 | 59.9 | 77.0 | 53.0 | 13.4 | 40.6 | 74.7 | 53.0 | 57.2 | 58.8 | 49.2 | 52.8 |
 | Qwen3-VL-8B | 46.5 | 63.4 | 80.2 | 58.3 | 18.7 | 46.4 | 73.0 | 55.6 | 59.5 | 61.6 | 51.2 | 55.9 |
-| Lingshu-7B | 47.3 | 66.7 | 81.9 | 61.0 | <ins>25.5</ins> | 52.6 | **82.4** | 57.2 | 64.1 | 68.3 | 62.7 | 60.9 |
+| Lingshu-7B | 47.3 | 66.7 | 81.9 | 61.0 | 25.5 | 52.6 | <ins>82.4</ins> | 57.2 | 64.1 | 68.3 | 62.7 | 60.9 |
 | HealthGPT-14B | 45.5 | 62.6 | 64.2 | 56.0 | 24.1 | 45.3 | 70.2 | 56.4 | 55.2 | 57.3 | 46.5 | 53.0 |
 | HuatuoGPT-V-34B | 50.1 | 60.3 | 68.3 | 47.7 | 21.5 | 49.6 | 69.7 | 56.6 | 50.1 | 54.9 | 48.7 | 52.5 |
 | Hulu-Med-4B | 45.8 | 72.6 | 81.7 | 59.7 | 24.6 | 54.2 | 75.1 | 53.1 | 76.0 | 70.1 | 69.1 | 62.0 |
-| Hulu-Med-7B | 50.5 | <ins>77.2</ins> | **85.8** | 64.2 | **28.3** | 57.4 | 77.7 | 57.3 | 80.4 | 76.2 | 70.5 | 66.0 |
-| **HealthGPT-Pro-4B** | <ins>52.0</ins> | 76.6 | 83.9 | <ins>66.7</ins> | 20.8 | <ins>61.4</ins> | 78.2 | <ins>60.0</ins> | <ins>81.0</ins> | **86.2** | <ins>71.1</ins> | <ins>67.1</ins> |
-| **HealthGPT-Pro-8B** | **54.7** | **78.4** | <ins>85.0</ins> | **70.7** | 25.3 | **63.6** | <ins>80.2</ins> | **61.1** | **81.6** | <ins>86.0</ins> | **72.2** | **69.0** |
+| Hulu-Med-7B | 50.5 | <ins>77.2</ins> | 85.8 | 64.2 | 28.3 | 57.4 | 77.7 | 57.3 | 80.4 | 76.2 | 70.5 | 66.0 |
+| **HealthGPT-Pro-4B** | 52.0 | 76.6 | 83.9 | 66.7 | 20.8 | 61.4 | 78.2 | 60.0 | 81.0 | <ins>86.2</ins> | 71.1 | 67.1 |
+| **HealthGPT-Pro-8B** | 54.7 | **78.4** | 85.0 | 70.7 | 25.3 | **63.6** | 80.2 | 61.1 | <ins>81.6</ins> | 86.0 | 72.2 | 69.0 |
+| Lingshu-32B | <ins>62.1</ins> | 68.9 | 89.9 | 85.8 | 30.4 | 60.3 | **83.5** | <ins>65.2</ins> | 64.8 | 74.3 | 65.9 | 68.3 |
+| Hulu-Med-32B | 42.8 | 72.9 | <ins>91.6</ins> | **90.0** | <ins>35.7</ins> | 60.9 | 81.2 | 64.3 | 79.3 | 82.8 | <ins>75.0</ins> | <ins>70.6</ins> |
+| **HealthGPT-Pro-27B** | **68.3** | 68.9 | **92.6** | <ins>87.2</ins> | **44.1** | <ins>62.6</ins> | 79.8 | **70.0** | **84.9** | **89.9** | **80.3** | **75.3** |
 
 > **Bold** = best, <ins>underline</ins> = second best.
 
